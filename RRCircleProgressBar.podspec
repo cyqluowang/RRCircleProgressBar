@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "http://EXAMPLE/RRCircleProgressBar.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://EXAMPLE/RRCircleProgressBar.git", :tag => s.version }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
 
