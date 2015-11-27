@@ -133,7 +133,7 @@
     unichar s;
     int x = 0;
     NSMutableArray *array = [NSMutableArray array];
-    for (int i; i < string.length; i++) {
+    for (int i = 0 ; i < string.length; i++) {
         s = [string characterAtIndex:i];
         NSString *str = [NSString stringWithCharacters:&s length:1];
         if ([str isEqualToString:@"#"]) {
