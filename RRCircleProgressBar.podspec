@@ -1,5 +1,4 @@
 
-
 Pod::Spec.new do |s|
 
   s.name         = "RRCircleProgressBar"
@@ -11,17 +10,20 @@ Pod::Spec.new do |s|
   仁润圆形精度条
                    DESC
 
-  s.homepage     = "http://EXAMPLE/RRCircleProgressBar"
+  s.homepage     = "https://github.com/cyqluowang/RRCircleProgressBar"
  
 
   s.license      = "MIT"
  
-  s.author             = { "陈玉琪" => "yq.chen@renrunkeji.com" }
+  s.author             = { "李峰健" => "yq.chen@renrunkeji.com" }
   
   s.platform     = :ios
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "http://EXAMPLE/RRCircleProgressBar.git", :tag => s.version }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/cyqluowang/RRCircleProgressBar.git", :tag => "0.0.1" }
+  s.source_files  = "Core/*"
+  s.requires_arc = true
+  s.ios.deployment_target = '7.0'
+  s.framework  = 'QuartzCore'
 
 
 end
