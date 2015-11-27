@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RRCircleProgressBar"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "圆形精度条."
 
  
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/cyqluowang/RRCircleProgressBar.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/cyqluowang/RRCircleProgressBar.git", :tag => s.version }
   s.source_files  = "Core/*"
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
